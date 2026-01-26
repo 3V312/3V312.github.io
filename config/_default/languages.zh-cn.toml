@@ -1,0 +1,19 @@
+languageCode = "zh-cn"
+languageName = "简体中文"
+weight = 9
+title = "蓝色森林"
+
+[params]
+  displayName = "简体中文"
+  isoCode = "zh-cn"
+  rtl = false
+  dateFormat = "2006-01-02"
+  logo = "img/blowfish_logo_transparent.png"
+  description = "这里是蓝色森林"
+
+[params.author]
+  name = "VvV"
+  image = "img/blowfish_logo.png"
+  headline = "你好！"
+  bio = "天上破了很多个洞，\n一注注，蓝色的瀑布，\n倾泄。\n这就是蓝色森林"
+ 
