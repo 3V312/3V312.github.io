@@ -5,8 +5,9 @@
 theme = "blowfish"
 baseURL = "http://3V312.github.io/"
 defaultContentLanguage = "zh-cn"
-
-pluralizeListTitles = "true" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
+defaultContentLanguageInSubdir = false
+hasCJKLanguage = true
+pluralizeListTitles = "false" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
 
 enableRobotsTXT = true
 summaryLength = 0
