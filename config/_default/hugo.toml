@@ -9,6 +9,12 @@ defaultContentLanguageInSubdir = false
 hasCJKLanguage = true
 pluralizeListTitles = "false" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
 
+[languages]
+[languages.zh-cn]
+languageCode = "zh-cn"
+languageName = "简体中文"
+weight = 1
+
 enableRobotsTXT = true
 summaryLength = 0
 
