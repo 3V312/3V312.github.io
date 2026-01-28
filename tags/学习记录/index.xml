@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>学习记录 on 蓝色森林</title><link>https://3V312.github.io/tags/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/</link><description>Recent content in 学习记录 on 蓝色森林</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>© 2026 VvV</copyright><atom:link href="https://3V312.github.io/tags/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/index.xml" rel="self" type="application/rss+xml"/><item><title>python学习记录1</title><link>https://3V312.github.io/docs/advanced-customisation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://3V312.github.io/docs/advanced-customisation/</guid><description>&lt;h1 class="relative group"&gt;260124
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>学习记录 on 蓝色森林</title><link>https://3V312.github.io/tags/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/</link><description>Recent content in 学习记录 on 蓝色森林</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>© 2026 VvV</copyright><atom:link href="https://3V312.github.io/tags/%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/index.xml" rel="self" type="application/rss+xml"/><item><title>python学习记录1</title><link>https://3V312.github.io/docs/python%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/python1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://3V312.github.io/docs/python%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/python1/</guid><description>&lt;h1 class="relative group"&gt;260124
  &lt;div id="260124" class="anchor"&gt;&lt;/div&gt;
  
  &lt;span
@@ -7,4 +7,24 @@
  &lt;/span&gt;
  
 &lt;/h1&gt;
-&lt;p&gt;今天写PAT发现，好简单啊，本来想写到难的就停止的，但是好简单。跟OJ的中等难度一样啊，最多题目形式多一些。&lt;/p&gt;</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://3V312.github.io/docs/advanced-customisation/featured.svg"/></item></channel></rss>
+&lt;p&gt;今天写PAT发现，好简单啊，本来想写到难的就停止的，但是好简单。跟OJ的中等难度一样啊，最多题目形式多一些。&lt;/p&gt;</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://3V312.github.io/docs/python%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/python1/featured.svg"/></item><item><title>python学习记录2</title><link>https://3V312.github.io/docs/python%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/python2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://3V312.github.io/docs/python%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/python2/</guid><description>&lt;h1 class="relative group"&gt;260127
+ &lt;div id="260127" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#260127" aria-label="锚点"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h1&gt;
+&lt;p&gt;python的输入输出比较随意也比较复杂&lt;/p&gt;
+
+&lt;h1 class="relative group"&gt;输入
+ &lt;div id="输入" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%e8%be%93%e5%85%a5" aria-label="锚点"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h1&gt;
+&lt;p&gt;第一是输入单行中的单个值&lt;/p&gt;</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://3V312.github.io/docs/python%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/python2/featured.svg"/></item></channel></rss>
