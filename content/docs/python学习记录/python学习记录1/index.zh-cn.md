@@ -3,7 +3,7 @@ title: python学习记录1
 weight: 13
 draft: false
 description: "刚好今天白天在notion写的这个,用作第一条博客吧"
-slug: "advanced-customisation"
+slug: "python1"
 tags: ["python", "学习记录", "文档"]
 series: ["python"]
 series_order: 1

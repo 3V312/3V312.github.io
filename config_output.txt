@@ -1,0 +1,825 @@
+archetypedir = 'archetypes'
+assetdir = 'assets'
+baseurl = 'http://3V312.github.io/'
+cachedir = 'C:\Users\palos\AppData\Local\hugo_cache'
+capitalizelisttitles = true
+contentdir = 'content'
+datadir = 'data'
+defaultcontentlanguage = 'zh-cn'
+defaultcontentrole = 'guest'
+defaultoutputformat = 'html'
+enableemoji = true
+enablerobotstxt = true
+environment = 'production'
+hascjklanguage = true
+i18ndir = 'i18n'
+languagecode = 'zh-cn'
+layoutdir = 'layouts'
+mainsections = ['docs']
+publishdir = 'public'
+resourcedir = 'resources'
+staticdir = ['static']
+theme = ['blowfish']
+themesdir = 'themes'
+timeout = '60s'
+title = '蓝色森林'
+titlecasestyle = 'AP'
+workingdir = 'D:\download\hugo\newSite'
+
+[author]
+
+[build]
+  useresourcecachewhen = 'fallback'
+
+  [build.buildstats]
+
+  [[build.cachebusters]]
+    source = '(postcss|tailwind)\.config\.js'
+    target = '(css|styles|scss|sass)'
+
+[caches]
+  [caches.assets]
+    dir = ':resourceDir/_gen'
+    maxage = -1
+
+  [caches.getcsv]
+    dir = ':cacheDir/:project'
+    maxage = -1
+
+  [caches.getjson]
+    dir = ':cacheDir/:project'
+    maxage = -1
+
+  [caches.getresource]
+    dir = ':cacheDir/:project'
+    maxage = -1
+
+  [caches.images]
+    dir = ':resourceDir/_gen'
+    maxage = -1
+
+  [caches.misc]
+    dir = ':cacheDir/:project'
+    maxage = -1
+
+  [caches.modules]
+    dir = ':cacheDir/modules'
+    maxage = -1
+
+[contenttypes]
+  [contenttypes.'text/asciidoc']
+
+  [contenttypes.'text/html']
+
+  [contenttypes.'text/markdown']
+
+  [contenttypes.'text/org']
+
+  [contenttypes.'text/pandoc']
+
+  [contenttypes.'text/rst']
+
+[deployment]
+  invalidatecdn = true
+  maxdeletes = 256
+  workers = 10
+
+[frontmatter]
+  date = ['date', 'publishdate', 'pubdate', 'published', 'lastmod', 'modified']
+  expirydate = ['expirydate', 'unpublishdate']
+  lastmod = [':git', 'lastmod', 'modified', 'date', 'publishdate', 'pubdate', 'published']
+  publishdate = ['publishdate', 'pubdate', 'published', 'date']
+
+[httpcache]
+  respectcachecontrolnostoreinrequest = true
+
+  [httpcache.cache]
+    [httpcache.cache.for]
+      excludes = ['**']
+
+  [[httpcache.polls]]
+    disable = true
+    high = '0s'
+    low = '0s'
+
+    [httpcache.polls.for]
+      includes = ['**']
+
+[imaging]
+  anchor = 'Center'
+  bgcolor = '#ffffff'
+  compression = 'lossy'
+  hint = 'photo'
+  quality = 75
+  resamplefilter = 'box'
+
+[languages]
+  [languages.zh-cn]
+    languagecode = 'zh-cn'
+    languagename = '简体中文'
+    title = '蓝色森林'
+    weight = 9
+
+[markup]
+  defaultmarkdownhandler = 'goldmark'
+
+  [markup.asciidocext]
+    backend = 'html5'
+    failurelevel = 'fatal'
+    noheaderorfooter = true
+    safemode = 'unsafe'
+
+    [markup.asciidocext.attributes]
+
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionlist = true
+      linkify = true
+      linkifyprotocol = 'https'
+      strikethrough = true
+      table = true
+      tasklist = true
+
+      [markup.goldmark.extensions.cjk]
+        eastasianlinebreaksstyle = 'simple'
+
+      [markup.goldmark.extensions.extras]
+        [markup.goldmark.extensions.extras.delete]
+
+        [markup.goldmark.extensions.extras.insert]
+
+        [markup.goldmark.extensions.extras.mark]
+
+        [markup.goldmark.extensions.extras.subscript]
+
+        [markup.goldmark.extensions.extras.superscript]
+
+      [markup.goldmark.extensions.footnote]
+        backlinkhtml = '&#x21a9;&#xfe0e;'
+        enable = true
+
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)']]
+
+      [markup.goldmark.extensions.typographer]
+        apostrophe = '&rsquo;'
+        ellipsis = '&hellip;'
+        emdash = '&mdash;'
+        endash = '&ndash;'
+        leftanglequote = '&laquo;'
+        leftdoublequote = '&ldquo;'
+        leftsinglequote = '&lsquo;'
+        rightanglequote = '&raquo;'
+        rightdoublequote = '&rdquo;'
+        rightsinglequote = '&rsquo;'
+
+    [markup.goldmark.parser]
+      autoheadingid = true
+      autoidtype = 'github'
+
+      [markup.goldmark.parser.attribute]
+        block = true
+        title = true
+
+    [markup.goldmark.renderer]
+      unsafe = true
+
+    [markup.goldmark.renderhooks]
+      [markup.goldmark.renderhooks.image]
+        useembedded = 'fallback'
+
+      [markup.goldmark.renderhooks.link]
+        useembedded = 'fallback'
+
+  [markup.highlight]
+    codefences = true
+    linenostart = 1
+    linenumbersintable = true
+    style = 'monokai'
+    tabwidth = 4
+    wrapperclass = 'highlight'
+
+  [markup.tableofcontents]
+    endlevel = 4
+    startlevel = 2
+
+[mediatypes]
+  [mediatypes.'application/json']
+    delimiter = '.'
+    suffixes = ['json']
+
+  [mediatypes.'application/manifest+json']
+    delimiter = '.'
+    suffixes = ['webmanifest']
+
+  [mediatypes.'application/octet-stream']
+    delimiter = '.'
+
+  [mediatypes.'application/pdf']
+    delimiter = '.'
+    suffixes = ['pdf']
+
+  [mediatypes.'application/rss+xml']
+    delimiter = '.'
+    suffixes = ['xml', 'rss']
+
+  [mediatypes.'application/toml']
+    delimiter = '.'
+    suffixes = ['toml']
+
+  [mediatypes.'application/wasm']
+    delimiter = '.'
+    suffixes = ['wasm']
+
+  [mediatypes.'application/xml']
+    delimiter = '.'
+    suffixes = ['xml']
+
+  [mediatypes.'application/yaml']
+    delimiter = '.'
+    suffixes = ['yaml', 'yml']
+
+  [mediatypes.'font/otf']
+    delimiter = '.'
+    suffixes = ['otf']
+
+  [mediatypes.'font/ttf']
+    delimiter = '.'
+    suffixes = ['ttf']
+
+  [mediatypes.'image/bmp']
+    delimiter = '.'
+    suffixes = ['bmp']
+
+  [mediatypes.'image/gif']
+    delimiter = '.'
+    suffixes = ['gif']
+
+  [mediatypes.'image/jpeg']
+    delimiter = '.'
+    suffixes = ['jpg', 'jpeg', 'jpe', 'jif', 'jfif']
+
+  [mediatypes.'image/png']
+    delimiter = '.'
+    suffixes = ['png']
+
+  [mediatypes.'image/svg+xml']
+    delimiter = '.'
+    suffixes = ['svg']
+
+  [mediatypes.'image/tiff']
+    delimiter = '.'
+    suffixes = ['tif', 'tiff']
+
+  [mediatypes.'image/webp']
+    delimiter = '.'
+    suffixes = ['webp']
+
+  [mediatypes.'text/asciidoc']
+    delimiter = '.'
+    suffixes = ['adoc', 'asciidoc', 'ad']
+
+  [mediatypes.'text/calendar']
+    delimiter = '.'
+    suffixes = ['ics']
+
+  [mediatypes.'text/css']
+    delimiter = '.'
+    suffixes = ['css']
+
+  [mediatypes.'text/csv']
+    delimiter = '.'
+    suffixes = ['csv']
+
+  [mediatypes.'text/html']
+    delimiter = '.'
+    suffixes = ['html', 'htm']
+
+  [mediatypes.'text/javascript']
+    delimiter = '.'
+    suffixes = ['js', 'jsm', 'mjs']
+
+  [mediatypes.'text/jsx']
+    delimiter = '.'
+    suffixes = ['jsx']
+
+  [mediatypes.'text/markdown']
+    delimiter = '.'
+    suffixes = ['md', 'mdown', 'markdown']
+
+  [mediatypes.'text/org']
+    delimiter = '.'
+    suffixes = ['org']
+
+  [mediatypes.'text/pandoc']
+    delimiter = '.'
+    suffixes = ['pandoc', 'pdc']
+
+  [mediatypes.'text/plain']
+    delimiter = '.'
+    suffixes = ['txt']
+
+  [mediatypes.'text/rst']
+    delimiter = '.'
+    suffixes = ['rst']
+
+  [mediatypes.'text/tsx']
+    delimiter = '.'
+    suffixes = ['tsx']
+
+  [mediatypes.'text/typescript']
+    delimiter = '.'
+    suffixes = ['ts']
+
+  [mediatypes.'text/x-gotmpl']
+    delimiter = '.'
+    suffixes = ['gotmpl']
+
+  [mediatypes.'text/x-sass']
+    delimiter = '.'
+    suffixes = ['sass']
+
+  [mediatypes.'text/x-scss']
+    delimiter = '.'
+    suffixes = ['scss']
+
+  [mediatypes.'video/3gpp']
+    delimiter = '.'
+    suffixes = ['3gpp', '3gp']
+
+  [mediatypes.'video/mp4']
+    delimiter = '.'
+    suffixes = ['mp4']
+
+  [mediatypes.'video/mpeg']
+    delimiter = '.'
+    suffixes = ['mpg', 'mpeg']
+
+  [mediatypes.'video/ogg']
+    delimiter = '.'
+    suffixes = ['ogv']
+
+  [mediatypes.'video/webm']
+    delimiter = '.'
+    suffixes = ['webm']
+
+  [mediatypes.'video/x-msvideo']
+    delimiter = '.'
+    suffixes = ['avi']
+
+[menus]
+  [[menus.footer]]
+    name = '标签'
+    pageref = 'tags'
+    weight = 10
+
+  [[menus.footer]]
+    name = '作者'
+    pageref = 'authors'
+    weight = 20
+
+  [[menus.main]]
+    name = '文档'
+    pageref = 'docs'
+    weight = 10
+
+  [[menus.main]]
+    identifier = 'github'
+    pre = 'github'
+    url = 'https://github.com/nunocoracao/blowfish'
+    weight = 400
+
+[minify]
+  [minify.tdewolff]
+    [minify.tdewolff.css]
+
+    [minify.tdewolff.html]
+      keepdefaultattrvals = true
+      keepdocumenttags = true
+      keependtags = true
+      keepspecialcomments = true
+      templatedelims = ['', '']
+
+    [minify.tdewolff.js]
+      version = 2022
+
+    [minify.tdewolff.json]
+
+    [minify.tdewolff.svg]
+
+    [minify.tdewolff.xml]
+
+[module]
+  noproxy = 'none'
+  private = '*.*'
+  proxy = 'direct'
+  workspace = 'off'
+
+  [module.hugoversion]
+
+  [[module.imports]]
+    path = 'blowfish'
+
+  [[module.mounts]]
+    source = 'content'
+    target = 'content'
+
+    [module.mounts.sites]
+      [module.mounts.sites.complements]
+
+      [module.mounts.sites.matrix]
+
+  [[module.mounts]]
+    source = 'data'
+    target = 'data'
+
+    [module.mounts.sites]
+      [module.mounts.sites.complements]
+
+      [module.mounts.sites.matrix]
+
+  [[module.mounts]]
+    source = 'layouts'
+    target = 'layouts'
+
+    [module.mounts.sites]
+      [module.mounts.sites.complements]
+
+      [module.mounts.sites.matrix]
+
+  [[module.mounts]]
+    source = 'i18n'
+    target = 'i18n'
+
+    [module.mounts.sites]
+      [module.mounts.sites.complements]
+
+      [module.mounts.sites.matrix]
+
+  [[module.mounts]]
+    source = 'archetypes'
+    target = 'archetypes'
+
+    [module.mounts.sites]
+      [module.mounts.sites.complements]
+
+      [module.mounts.sites.matrix]
+
+  [[module.mounts]]
+    source = 'assets'
+    target = 'assets'
+
+    [module.mounts.sites]
+      [module.mounts.sites.complements]
+
+      [module.mounts.sites.matrix]
+
+  [[module.mounts]]
+    source = 'static'
+    target = 'static'
+
+    [module.mounts.sites]
+      [module.mounts.sites.complements]
+
+      [module.mounts.sites.matrix]
+
+[outputformats]
+  [outputformats.404]
+    ishtml = true
+    mediatype = 'text/html'
+    notalternative = true
+    permalinkable = true
+    ugly = true
+
+  [outputformats.alias]
+    ishtml = true
+    mediatype = 'text/html'
+    ugly = true
+
+  [outputformats.amp]
+    basename = 'index'
+    ishtml = true
+    mediatype = 'text/html'
+    path = 'amp'
+    permalinkable = true
+    rel = 'amphtml'
+
+  [outputformats.calendar]
+    basename = 'index'
+    isplaintext = true
+    mediatype = 'text/calendar'
+    protocol = 'webcal://'
+    rel = 'alternate'
+
+  [outputformats.css]
+    basename = 'styles'
+    isplaintext = true
+    mediatype = 'text/css'
+    notalternative = true
+    rel = 'stylesheet'
+
+  [outputformats.csv]
+    basename = 'index'
+    isplaintext = true
+    mediatype = 'text/csv'
+    rel = 'alternate'
+
+  [outputformats.gotmpl]
+    isplaintext = true
+    mediatype = 'text/x-gotmpl'
+    notalternative = true
+
+  [outputformats.html]
+    basename = 'index'
+    ishtml = true
+    mediatype = 'text/html'
+    permalinkable = true
+    rel = 'canonical'
+    weight = 10
+
+  [outputformats.json]
+    basename = 'index'
+    isplaintext = true
+    mediatype = 'application/json'
+    rel = 'alternate'
+
+  [outputformats.markdown]
+    basename = 'index'
+    isplaintext = true
+    mediatype = 'text/markdown'
+    rel = 'alternate'
+
+  [outputformats.robots]
+    basename = 'robots'
+    isplaintext = true
+    mediatype = 'text/plain'
+    rel = 'alternate'
+    root = true
+
+  [outputformats.rss]
+    basename = 'index'
+    mediatype = 'application/rss+xml'
+    nougly = true
+    rel = 'alternate'
+
+  [outputformats.sitemap]
+    basename = 'sitemap'
+    mediatype = 'application/xml'
+    rel = 'sitemap'
+    ugly = true
+
+  [outputformats.sitemapindex]
+    basename = 'sitemap'
+    mediatype = 'application/xml'
+    rel = 'sitemap'
+    root = true
+    ugly = true
+
+  [outputformats.webappmanifest]
+    basename = 'manifest'
+    isplaintext = true
+    mediatype = 'application/manifest+json'
+    notalternative = true
+    rel = 'manifest'
+
+[outputs]
+  home = ['html', 'rss', 'json']
+  page = ['html']
+  rss = ['rss']
+  section = ['html', 'rss']
+  taxonomy = ['html', 'rss']
+  term = ['html', 'rss']
+
+[page]
+  nextprevinsectionsortorder = 'desc'
+  nextprevsortorder = 'desc'
+
+[pagination]
+  pagersize = 100
+  path = 'page'
+
+[params]
+  autoswitchappearance = true
+  colorscheme = 'forest'
+  dateformat = '2006-01-02'
+  defaultappearance = 'light'
+  defaultbackgroundimage = '/img/background.svg'
+  defaultfeaturedimage = '/img/featured.svg'
+  defaultsocialimage = '/img/blowfish_banner.png'
+  description = '这里是蓝色森林'
+  displayname = '简体中文'
+  enablecodecopy = true
+  enablesearch = true
+  enablestructuredbreadcrumbs = true
+  fingerprintalgorithm = 'sha512'
+  forgejodefaultserver = 'https://v11.next.forgejo.org'
+  giteadefaultserver = 'https://git.fsfe.org'
+  highlightcurrentmenuarea = true
+  isocode = 'zh-cn'
+  logo = 'img/blowfish_logo_transparent.png'
+  mainsections = ['docs']
+  smarttoc = true
+
+  [params.advertisement]
+
+  [params.article]
+    editappendpath = true
+    editurl = 'https://github.com/nunocoracao/blowfish/tree/main/exampleSite/content'
+    herostyle = 'background'
+    layoutbackgroundblur = true
+    layoutbackgroundheaderspace = true
+    relatedcontentlimit = 9
+    sharinglinks = ['linkedin', 'twitter', 'bluesky', 'reddit', 'whatsapp', 'telegram', 'pinterest', 'facebook', 'email', 'line']
+    showauthor = true
+    showauthorsbadges = true
+    showbreadcrumbs = true
+    showdraftlabel = true
+    showedit = true
+    showheadinganchors = true
+    showhero = true
+    showpagination = true
+    showreadingtime = true
+    showrelatedcontent = true
+    showtableofcontents = true
+    showtaxonomies = true
+    showviews = true
+    showzenmode = true
+
+  [params.author]
+    bio = "天上破了很多个洞，\n一注注，蓝色的瀑布，\n倾泄。\n这就是蓝色森林"
+    headline = '你好！'
+    image = 'img/blowfish_logo.png'
+    name = 'VvV'
+
+  [params.buymeacoffee]
+    globalwidgetcolor = '#FFDD00'
+    globalwidgetposition = 'right'
+    identifier = 'nunocoracao'
+
+  [params.fathomanalytics]
+
+  [params.firebase]
+    apikey = 'AIzaSyB5tqlqDky77Vb4Tc4apiHV4hRZI18KGiY'
+    appid = '1:60108104191:web:039842ebe1370698b487ca'
+    authdomain = 'blowfish-21fff.firebaseapp.com'
+    measurementid = 'G-PEDMYR1V0K'
+    messagingsenderid = '60108104191'
+    projectid = 'blowfish-21fff'
+    storagebucket = 'blowfish-21fff.appspot.com'
+
+  [params.footer]
+    showappearanceswitcher = true
+    showcopyright = true
+    showmenu = true
+    showscrolltotop = true
+    showthemeattribution = true
+
+  [params.header]
+    layout = 'fixed'
+
+  [params.homepage]
+    cardview = true
+    layout = 'background'
+    layoutbackgroundblur = true
+    showmorelink = true
+    showmorelinkdest = 'docs'
+    showrecent = true
+    showrecentitems = 12
+
+  [params.list]
+    cardview = true
+    herostyle = 'background'
+    layoutbackgroundblur = true
+    orderbyweight = true
+    showcards = true
+    showhero = true
+    showtableofcontents = true
+
+  [params.rssnext]
+
+  [params.selineanalytics]
+
+  [params.sitemap]
+
+  [params.taxonomy]
+    herostyle = 'background'
+    showhero = true
+    showtableofcontents = true
+    showtermcount = true
+
+  [params.term]
+    cardview = true
+    herostyle = 'background'
+    showhero = true
+    showtableofcontents = true
+
+  [params.umamianalytics]
+
+  [params.verification]
+
+[permalinks]
+  [permalinks.page]
+
+  [permalinks.section]
+
+  [permalinks.taxonomy]
+
+  [permalinks.term]
+
+[privacy]
+  [privacy.disqus]
+
+  [privacy.googleanalytics]
+    respectdonottrack = true
+
+  [privacy.instagram]
+
+  [privacy.vimeo]
+
+  [privacy.x]
+
+  [privacy.youtube]
+
+[related]
+  [[related.indices]]
+    name = 'tags'
+    type = 'basic'
+    weight = 100
+
+  [[related.indices]]
+    name = 'categories'
+    type = 'basic'
+    weight = 100
+
+  [[related.indices]]
+    name = 'series'
+    type = 'basic'
+    weight = 50
+
+  [[related.indices]]
+    name = 'authors'
+    type = 'basic'
+    weight = 20
+
+  [[related.indices]]
+    name = 'date'
+    type = 'basic'
+    weight = 10
+
+  [[related.indices]]
+    name = 'fragmentrefs'
+    type = 'fragments'
+    weight = 10
+
+[roles]
+  [roles.guest]
+
+[security]
+  [security.exec]
+    allow = ['^(dart-)?sass(-embedded)?$', '^go$', '^git$', '^npx$', '^postcss$', '^tailwindcss$']
+    osenv = ['(?i)^((HTTPS?|NO)_PROXY|PATH(EXT)?|APPDATA|TE?MP|TERM|GO\w+|(XDG_CONFIG_)?HOME|USERPROFILE|SSH_AUTH_SOCK|DISPLAY|LANG|SYSTEMDRIVE|PROGRAMDATA)$']
+
+  [security.funcs]
+    getenv = ['^HUGO_', '^CI$']
+
+  [security.http]
+    methods = ['(?i)GET|POST']
+    urls = ['.*']
+
+[segments]
+
+[server]
+  [[server.redirects]]
+    from = '/**'
+    status = 404
+    to = '/404.html'
+
+[services]
+  [services.disqus]
+
+  [services.googleanalytics]
+
+  [services.rss]
+    limit = -1
+
+  [services.x]
+
+[sitemap]
+  changefreq = 'daily'
+  filename = 'sitemap.xml'
+  priority = 0.5
+
+[taxonomies]
+  author = 'authors'
+  category = 'categories'
+  series = 'series'
+  tag = 'tags'
+
+[uglyurls]
+
+[versions]
+  [versions.'v1.0.0']
