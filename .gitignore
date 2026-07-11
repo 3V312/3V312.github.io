@@ -4,6 +4,7 @@
 .hugo_build.lock
 hugo.exe
 hugo
+config_output.txt
 
 # 主题缓存
 /themes/blowfish/resources/_gen/
