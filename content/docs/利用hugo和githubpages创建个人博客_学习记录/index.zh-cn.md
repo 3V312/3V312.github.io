@@ -4,7 +4,7 @@ title: 利用hugo和githubpages创建个人博客_学习记录
 weight: 13
 draft: false
 description: "结构还是有一些混乱，复盘还是很有用的"
-slug: "hugo&githubpages"
+slug: "hugo-github-pages"
 tags: ["hugo", "githubpages", "个人博客创建","个人博客","复盘"]
 
 ---
