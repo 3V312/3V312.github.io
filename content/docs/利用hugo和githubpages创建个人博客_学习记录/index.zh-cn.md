@@ -1,4 +1,5 @@
 ---
+date: 2026-07-10T00:00:00+08:00
 title: 利用hugo和githubpages创建个人博客_学习记录
 weight: 13
 draft: false

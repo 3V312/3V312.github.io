@@ -1,4 +1,5 @@
 ---
+date: 2026-07-10T00:00:00+08:00
 title: Godot试运行与未来计划
 weight: 13
 draft: false

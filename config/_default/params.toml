@@ -61,7 +61,7 @@ fingerprintAlgorithm = "sha512" # Valid values are "sha512" (default), "sha384",
   disableHeroImageFilter = false # only used when layout equals hero
 
 [article]
-  showDate = false
+  showDate = true
   showViews = true
   showLikes = false
   showDateOnlyInArticle = false
@@ -175,3 +175,4 @@ fingerprintAlgorithm = "sha512" # Valid values are "sha512" (default), "sha384",
 
 [advertisement]
   # adsense = ""
+

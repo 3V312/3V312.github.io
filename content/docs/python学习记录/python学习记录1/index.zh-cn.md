@@ -1,4 +1,5 @@
 ---
+date: 2026-07-10T00:00:00+08:00
 title: python学习记录1
 weight: 13
 draft: false
