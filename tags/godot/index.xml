@@ -1,4 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Godot on 蓝色森林</title><link>https://3V312.github.io/tags/godot/</link><description>Recent content in Godot on 蓝色森林</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>© 2026 VvV</copyright><lastBuildDate>Fri, 10 Jul 2026 00:00:00 +0800</lastBuildDate><atom:link href="https://3V312.github.io/tags/godot/index.xml" rel="self" type="application/rss+xml"/><item><title>Godot试运行与未来计划</title><link>https://3V312.github.io/docs/narrativestudio/godot-test-and-plan/</link><pubDate>Fri, 10 Jul 2026 00:00:00 +0800</pubDate><guid>https://3V312.github.io/docs/narrativestudio/godot-test-and-plan/</guid><description>&lt;h1 class="relative group"&gt;Godot试运行与未来计划
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Godot on 蓝色森林</title><link>https://3V312.github.io/tags/godot/</link><description>Recent content in Godot on 蓝色森林</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>© 2026 VvV</copyright><lastBuildDate>Sun, 12 Jul 2026 00:00:00 +0800</lastBuildDate><atom:link href="https://3V312.github.io/tags/godot/index.xml" rel="self" type="application/rss+xml"/><item><title>项目计划1.0</title><link>https://3V312.github.io/docs/narrativestudio/narrativestudio-plan-1-0/</link><pubDate>Sun, 12 Jul 2026 00:00:00 +0800</pubDate><guid>https://3V312.github.io/docs/narrativestudio/narrativestudio-plan-1-0/</guid><description>&lt;h1 class="relative group"&gt;Narrative Studio 叙事工作台：项目构想整理
+ &lt;div id="narrative-studio-叙事工作台项目构想整理" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#narrative-studio-%e5%8f%99%e4%ba%8b%e5%b7%a5%e4%bd%9c%e5%8f%b0%e9%a1%b9%e7%9b%ae%e6%9e%84%e6%83%b3%e6%95%b4%e7%90%86" aria-label="锚点"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h1&gt;
+
+&lt;h2 class="relative group"&gt;一、项目定位
+ &lt;div id="一项目定位" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#%e4%b8%80%e9%a1%b9%e7%9b%ae%e5%ae%9a%e4%bd%8d" aria-label="锚点"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;p&gt;Narrative Studio 是一款以中文自然语言为核心的互动叙事创作网站。&lt;/p&gt;</description></item><item><title>Godot试运行与未来计划</title><link>https://3V312.github.io/docs/narrativestudio/godot-test-and-plan/</link><pubDate>Fri, 10 Jul 2026 00:00:00 +0800</pubDate><guid>https://3V312.github.io/docs/narrativestudio/godot-test-and-plan/</guid><description>&lt;h1 class="relative group"&gt;Godot试运行与未来计划
  &lt;div id="godot试运行与未来计划" class="anchor"&gt;&lt;/div&gt;
  
  &lt;span
